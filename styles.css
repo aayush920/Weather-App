@@ -1,0 +1,118 @@
+*{
+  font-family: 'Architects Daughter', cursive;
+}
+
+body{
+  background: linear-gradient(to bottom, #2c2a2a 0%, #a0bbf1 0%);
+}
+
+.container{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right:auto;
+  padding:20px;
+  width: 300px;    
+  background-color: white;
+  
+  display: block;
+  border-radius: 30px;
+  padding-bottom :50px;
+}
+
+.search-form{
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 240px;  
+}
+
+.app-title{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #293251;
+}
+
+.notification {
+  color: #721c24;
+  background-color: blanchedalmond;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+}
+
+.weather-container{
+  width: 300px;
+  height: 260px;
+  background-color: #ffffff;
+}
+
+.weather-icon{
+  width: 300px;
+  height: 128px;
+}
+
+.weather-icon:hover{
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.weather-icon img{
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature-value{
+  width: 300px;
+  height:60px;
+}
+
+.temperature-value p{
+  padding: 0;
+  margin: 0;
+  color: #293251;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value p:hover{
+  transform: scale(1.1); 
+}
+
+.temperature-value span{
+  color: #293251;
+  font-size: 0.5em;
+}
+
+
+.temperature-description {
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.location {
+  margin: 0;
+  padding: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 15pxem;
+  font: weight 300px;
+}
+
+.location:hover{
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+

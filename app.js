@@ -120,6 +120,7 @@ const getWeather2=async (city)=>{
                 console.log(data);
             })
             .then(function(){
+                notificationElement.innerHTML="";
                 displayWeather();
             });
     }
